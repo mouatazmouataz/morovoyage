@@ -2,7 +2,7 @@ import React, { useState, useMemo, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import TripCard from './components/TripCard';
-import Chatbot from './components/Chatbot';
+
 import Footer from './components/Footer';
 import AuthModal from './components/AuthModal';
 import FamilyManager from './components/FamilyManager';
@@ -328,7 +328,7 @@ const App: React.FC = () => {
       </main>
 
       {view !== 'results' && view !== 'booking' && <Footer onViewChange={handleViewChange} />}
-      <Chatbot language={language} />
+    
 
       <AuthModal 
         isOpen={isAuthOpen} 
