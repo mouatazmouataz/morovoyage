@@ -1,0 +1,7 @@
+{
+  "name": "MoroVoyage",
+  "description": "An intelligent travel booking platform for Morocco comparing trains, buses, and flights with an AI-powered assistant.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
